@@ -1,0 +1,68 @@
+
+/*
+ * Component: Social Widgets
+ * -------------------------
+ */
+.card-widget {
+  border: none;
+  position: relative;
+}
+
+.widget-user .widget-user-header {
+  padding: 1rem;
+  width: 100%;
+  height: 450px;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.widget-user .widget-user-username {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 300;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.widget-user .widget-user-desc {
+    text-align: center;
+    margin-top: 0;
+}
+
+.widget-user .widget-user-image {
+  z-index: 2;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  margin-left: -100px;
+}
+
+.widget-user .widget-user-image > img {
+  width: 180px;
+  height: auto;
+  border: 3px solid #ffffff;
+}
+
+.widget-user .card-footer{
+    position: absolute;
+    bottom: 4px;
+    text-align: center;
+    background-color: #52515042;
+    color: wheat;
+    width: -webkit-fill-available;
+}
+.widget-user .card-footer .description span a {
+  text-decoration: none;
+    color: wheat;
+}
+.widget-user .card-footer .description span a:hover {
+  text-decoration: none;
+  color: rgb(247, 242, 242);
+}
+
+.widget-user .card-footer .description {
+        display: inline-block;
+        padding: 0px 20px;
+}
+
